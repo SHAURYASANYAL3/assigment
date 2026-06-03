@@ -1,16 +1,56 @@
-# React + Vite
+# Agentic AI - React Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A production-quality React website built from a Figma design.
 
-Currently, two official plugins are available:
+## Tech Stack
+- **Framework:** React 19 + Vite 8
+- **Language:** JavaScript
+- **Styling:** Vanilla CSS (CSS Variables + Component-specific files)
+- **Icons/Images:** Placeholder assets & semantic HTML
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Getting Started
 
-## React Compiler
+### Prerequisites
+- Node.js (v18 or higher)
+- npm
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/SHAURYASANYAL3/assigment.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd assigment
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-## Expanding the ESLint configuration
+### Running the Project
+- **Development Mode:**
+  ```bash
+  npm run dev
+  ```
+- **Build for Production:**
+  ```bash
+  npm run build
+  ```
+- **Preview Production Build:**
+  ```bash
+  npm run preview
+  ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+- Sticky Navigation with Glassmorphism
+- Fully Responsive (Mobile, Tablet, Desktop)
+- Clean, Modular Component Architecture
+- Hover animations and interactive elements
+- Semantic HTML for SEO and Accessibility
+
+## Design System
+The project uses a custom design system defined in `src/index.css` with the following palette:
+- **Primary:** `#2563EB` (Vibrant Blue)
+- **Background:** `#FFFFFF` / `#F3F4F6`
+- **Text:** `#1F2937` (Heading) / `#4B5563` (Body)
